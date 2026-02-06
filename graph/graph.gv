@@ -1,0 +1,17 @@
+digraph test_graph {
+	a;
+	a -> b;
+	b;
+	b -> a;
+	b -> f;
+	b -> e;
+	c;
+	c -> a;
+	d;
+	d -> f;
+	e;
+	e -> f;
+	f;
+	f -> d;
+	f -> a;
+}
