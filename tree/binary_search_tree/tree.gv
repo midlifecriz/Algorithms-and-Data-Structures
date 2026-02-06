@@ -1,0 +1,35 @@
+digraph Tree {
+	apple;
+	apple -> avocado;
+	apricot;
+	avocado;
+	avocado -> apricot;
+	avocado -> banana;
+	banana;
+	berry;
+	berry -> apple;
+	berry -> blueberry;
+	blueberry;
+	blueberry -> fig;
+	fig;
+	fig -> grapefruit;
+	grapefruit;
+	grapefruit -> grapes;
+	grapes;
+	kiwi;
+	kiwi -> berry;
+	kiwi -> raspberry;
+	lime;
+	lime -> plum;
+	mango;
+	plum;
+	plum -> mango;
+	raspberry;
+	raspberry -> lime;
+	raspberry -> strawberry;
+	salt;
+	strawberry;
+	strawberry -> salt;
+	strawberry -> walnut;
+	walnut;
+}

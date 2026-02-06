@@ -1,0 +1,34 @@
+kiwi
+11 kg
+berry
+2333 kg
+apple
+1223 kg
+raspberry
+122 kg
+avocado
+122 kg
+strawberry
+14 kg
+apricot
+33 kg
+walnut
+123 kg
+banana
+22 kg
+lime
+543 kg
+blueberry
+44 kg
+plum
+2344 kg
+fig
+3434 kg
+grapefruit
+334 kg
+grapes
+24234 kg
+mango
+334 kg
+salt
+123 kg
