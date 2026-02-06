@@ -7,7 +7,7 @@
 
 
 int main() {
-    size_t sizes[] = {10, 100, 1000};
+    size_t sizes[] = {10000000};
     size_t n = sizeof(sizes)/sizeof(size_t);
     double sum_time[] = {0, 0, 0, 0};
 
@@ -21,13 +21,13 @@ int main() {
             srand(RANDOM_SEED + j);
             for (size_t k = 0; k < sizes[i]; k++) {
                 array[k] = rand() % 100;
-               // printf("%d ", array[k]);
+                //printf("%d ", array[k]);
             }
             //printf("\n");
         
             //замеряем время работы
             clock_t start_time = clock();
-            bubbleSort(array, sizes[i]);
+            quickSort(array, 0, sizes[i]-1);
             clock_t end_time = clock();
             sum_time[i] += (end_time - start_time)/CLOCKS_PER_SEC;
 
